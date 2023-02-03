@@ -1,5 +1,5 @@
 # Quick Introduction
-This is an inventory system and point of sale application it is build in laravel 8 and php 8
+This is an inventory control system application it is build in Laravel-8 and PHP-8
 
 # Quick Installation
 ```bash
@@ -11,13 +11,13 @@ and simply follow the instructions
 
 ```bash 
 Admin login:
-Login: admin@app.com
-Password: admin
+Login: admin@yopmail.com
+Password: admin@yopmail.com
 ```
 ```bash
 Worker login
-Login: worker@app.com
-Password: worker
+Login: admin@yopmail.com
+Password: worker@yopmail.com
 ```
 
 # Roles
@@ -27,7 +27,7 @@ User: can (add, read, edit)<br>
 # Credits
 [Creative Tim Black Dashboard](https://www.creative-tim.com/product/black-dashboard) <br>
 [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) <br>
-[PHP Storm](https://www.jetbrains.com/phpstorm/promo/?source=google&medium=cpc&campaign=14335686225&gclid=Cj0KCQiA3fiPBhCCARIsAFQ8QzXdOwAU0GcrZyfp9RQ4O0HV2ht-WuMDANLtrJ5dlN5oZDCMExHxNE8aAkB4EALw_wcB) <br>
+[Visual Studio Code](hhttps://code.visualstudio.com/) <br>
 
 
 # Author
@@ -36,7 +36,7 @@ User: can (add, read, edit)<br>
 # License
 MIT License
 
-Copyright (c) 2022 Rajib Hossain
+Copyright (c) 2023 Rajib Hossain
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
