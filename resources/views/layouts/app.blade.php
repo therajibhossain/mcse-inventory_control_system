@@ -48,14 +48,12 @@
                     <div class="card-body">
                         <div class="bg-transparent text-justify position-relative text-light text-center">
                             <hr>
-                            <span data-toggle="tooltip" data-placement="top" title="{{__('translation.why_copyright')}}"
-                                  class="position-relative text-justify text-center">{{__('translation.All_rights_reserved')}}</span>
-                            {{__('translation.for')}} <a href="https://instagram.com/nawrasbukhari">
-                                <span
-                                        data-toggle="tooltip" data-placement="top"
-                                        title="{{__('translation.why_nawras')}}"
-                                        class="text-danger">{{__('translation.author')}}
-                                </span>
+                            <span data-toggle="tooltip" data-placement="top" title="" class="position-relative text-justify text-center">
+                                {{__('translation.All_rights_reserved')}}
+                            </span>
+                            {{__('translation.for')}} 
+                            <a href="https://www.linkedin.com/in/therajibhossain">
+                                <span data-toggle="tooltip" data-placement="top" title="" class="text-danger">{{__('translation.author')}}</span>
                             </a>
                         </div>
                     </div>

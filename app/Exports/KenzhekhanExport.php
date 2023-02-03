@@ -68,7 +68,7 @@ class KenzhekhanExport implements WithHeadings, WithMapping, WithProperties, Fro
             $product->name,
             $product->description,
             $product->country,
-            $product->price.' '.'₸',
+            $product->price.' '.'৳',
             $product->stock,
             $product->availability = $available,
             $product->weight.' '.'КГ',

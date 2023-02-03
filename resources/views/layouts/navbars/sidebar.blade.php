@@ -78,15 +78,15 @@
                         <li @if ($pageSlug == 'products') class="active " @endif>
                             <a href="{{ route('products.index') }}">
                                 <i class="tim-icons icon-notes"></i>
-                                <p>{{__('translation.kazkan')}}</p>
+                                <p>{{__('translation.Products')}}</p>
                             </a>
                         </li>
-                        <li @if ($pageSlug == 'kenzhekhan') class="active " @endif>
+                        <!-- <li @if ($pageSlug == 'kenzhekhan') class="active " @endif>
                             <a href="{{ route('kenzhekhan.index') }}">
                                 <i class="tim-icons icon-notes"></i>
                                 <p>{{__('translation.kenzhekhan')}}</p>
                             </a>
-                        </li>
+                        </li> -->
                         <li @if ($pageSlug == 'categories') class="active " @endif>
                             <a href="{{ route('categories.index') }}">
                                 <i class="tim-icons icon-tag"></i>
@@ -155,12 +155,12 @@
                 </li>
             @endcan
             @can('access_translator')
-                <li>
+                <!-- <li>
                     <a href="{{ route('translations.index')  }}">
                         <i class="tim-icons icon-caps-small"></i>
                         <p>{{__('translation.Translation_Manager')}}</p>
                     </a>
-                </li>
+                </li> -->
             @endcan
             <li @if ($pageSlug == 'Search query') class="active " @endif>
                 <a href="{{route('theme.index')}}">
@@ -168,18 +168,18 @@
                     <p>{{__('translation.search')}}</p>
                 </a>
             </li>
-            <li @if ($pageSlug == 'chat') class="active " @endif>
+            <!-- <li @if ($pageSlug == 'chat') class="active " @endif>
                 <a href="/chat">
                     <i class="tim-icons icon-chat-33"></i>
                     <p>{{__('translation.chat')}}</p>
                 </a>
-            </li>
-            <li @if ($pageSlug == 'zoom') class="active " @endif>
+            </li> -->
+            <!-- <li @if ($pageSlug == 'zoom') class="active " @endif>
                 <a href="{{ route('zoom.index') }}">
                     <i class="tim-icons icon-video-66"></i>
                     <p>{{__('translation.zoom')}}</p>
                 </a>
-            </li>
+            </li> -->
         </ul>
     </div>
 </div>

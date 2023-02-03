@@ -172,11 +172,11 @@
                         <div class="tooltip">
                             {{__('translation.All_rights_reserved')}}
                             {{__('translation.for')}}
-                            <a href="https://instagram.com/nawrasbukhari" target="_blank" style="color: indianred" >{{__('translation.author')}}</a>
+                            <a href="https://www.linkedin.com/in/therajibhossain" target="_blank" style="color: indianred" >{{__('translation.author')}}</a>
                             <div class="bottom">
                                 <div style="text-align: center;">
                                     <img height="80px" width="80px" src="{{asset('installer/img/author.jpg')}}" />
-                                    <p>{{__('translation.why_nawras')}}</p>
+                                    <!-- <p>{{__('translation.why_nawras')}}</p> -->
                                 </div>
                             </div>
                         </div>

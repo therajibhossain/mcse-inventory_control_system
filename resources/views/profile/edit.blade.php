@@ -105,7 +105,7 @@
                 </form>
             </div>
             <!-- Here Goes 2FA -->
-            <div class="card">
+            <!-- <div class="card">
                 <div class="card-header">
                     <h5 class="title">{{__('translation.2fa')}}</h5>
                 </div>
@@ -130,7 +130,7 @@
                         @endif
                     </div>
                 </form>
-            </div>
+            </div> -->
 
         </div>
         <div class="col-md-4">

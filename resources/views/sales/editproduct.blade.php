@@ -27,10 +27,10 @@
                                         @foreach ($products as $product)
                                             @if($product['id'] == old('product_id') or $product['id'] == $soldproduct->product_id )
                                                 <option value="{{$product['id']}}" selected>[{{ $product->category->name }}] {{ $product->name }} -
-                                                    {{__('translation.Base_price')}} : {{ $product->price }}₸</option>
+                                                    {{__('translation.Base_price')}} : {{ $product->price }}৳</option>
                                             @else
                                                 <option value="{{$product['id']}}">[{{ $product->category->name }}] {{ $product->name }} -
-                                                    {{__('translation.Base_price')}}: {{ $product->price }}₸</option>
+                                                    {{__('translation.Base_price')}}: {{ $product->price }}৳</option>
                                             @endif
                                         @endforeach
                                     </select>
@@ -79,7 +79,7 @@
         input_qty.addEventListener('input', updateTotal);
         input_price.addEventListener('input', updateTotal);
         function updateTotal () {
-            input_total.value = (parseInt(input_qty.value) * parseFloat(input_price.value))+"₸";
+            input_total.value = (parseInt(input_qty.value) * parseFloat(input_price.value))+"৳";
         }
     </script>
 @endpush

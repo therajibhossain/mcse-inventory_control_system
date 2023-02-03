@@ -14,10 +14,9 @@ class payment_mothods_table_seeder extends Seeder
     public function run()
     {
         DB::table('payment_methods')->insert([
-            ['name' => 'Нурбанк','description'=>'Способ оплаты Нурбанк' ,'created_at'=>Carbon::now(), 'updated_at'=>Carbon::now()],
-            ['name' => 'КАСПИ GOLD', 'description'=>'Использование каспи перевод','created_at'=>Carbon::now(), 'updated_at'=>Carbon::now()],
-            ['name' => 'наличные деньги','description'=>'Оплата из рук в руки' ,'created_at'=>Carbon::now(), 'updated_at'=>Carbon::now()],
-
-    ]);
+            ['name' => 'aamra-2015678 (DBBL)', 'description'=>'Mirpur Circle-10, Dhaka-1216' ,'created_at'=>Carbon::now(), 'updated_at'=>Carbon::now()],
+            ['name' => 'aamra-50156986 (IBBL)', 'description'=>'Mirpur Circle-10, Dhaka-1216' ,'created_at'=>Carbon::now(), 'updated_at'=>Carbon::now()],
+            ['name' => 'Petty Cash', 'description'=>'Cash in hand' ,'created_at'=>Carbon::now(), 'updated_at'=>Carbon::now()],
+        ]);
     }
 }

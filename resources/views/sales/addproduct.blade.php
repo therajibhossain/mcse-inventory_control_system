@@ -26,10 +26,10 @@
 
                                             @if($product['id'] == old('product_id'))
                                                 <option value="{{$product['id']}}" selected>[{{ $product->category->name }}] {{ $product->name }} -
-                                                    {{__('translation.Base_price')}}: {{ $product->price }}₸</option>
+                                                    {{__('translation.Base_price')}}: {{ $product->price }}৳</option>
                                                 @else
                                                 <option value="{{$product['id']}}">[{{ $product->category->name }}] {{ $product->name }} -
-                                                    {{__('translation.Base_price')}}: {{ $product->price }}₸</option>
+                                                    {{__('translation.Base_price')}}: {{ $product->price }}৳</option>
                                                 @endif
                                             @endforeach
                                     </select>
@@ -50,7 +50,7 @@
 
                                 <div class="form-group{{ $errors->has('product_id') ? ' has-danger' : '' }}">
                                     <label class="form-control-label" for="input-total">{{__('translation.Total_Amount')}}</label>
-                                    <input type="text" name="total_amount" id="input-total" class="form-control form-control-alternative{{ $errors->has('product_id') ? ' is-invalid' : '' }}" value="0 ₸" disabled>
+                                    <input type="text" name="total_amount" id="input-total" class="form-control form-control-alternative{{ $errors->has('product_id') ? ' is-invalid' : '' }}" value="0 ৳" disabled>
                                     @include('alerts.feedback', ['field' => 'product_id'])
                                 </div>
 
@@ -88,10 +88,10 @@
 {{--                                        @foreach ($kenzhekhan as $kenzhekhan)--}}
 {{--                                            @if($kenzhekhan['id'] == old('kenzhekhan_id'))--}}
 {{--                                                <option value="{{$kenzhekhan['id']}}" selected>[{{ $kenzhekhan->category->name }}] {{ $kenzhekhan->name }} ---}}
-{{--                                                    {{__('translation.Base_price')}}: {{ $kenzhekhan->price }}₸</option>--}}
+{{--                                                    {{__('translation.Base_price')}}: {{ $kenzhekhan->price }}৳</option>--}}
 {{--                                            @else--}}
 {{--                                                <option value="{{$kenzhekhan['id']}}">[{{ $kenzhekhan->category->name }}] {{ $kenzhekhan->name }} ---}}
-{{--                                                    {{__('translation.Base_price')}}: {{ $kenzhekhan->price }}₸</option>--}}
+{{--                                                    {{__('translation.Base_price')}}: {{ $kenzhekhan->price }}৳</option>--}}
 {{--                                            @endif--}}
 {{--                                        @endforeach--}}
 {{--                                    </select>--}}
@@ -113,7 +113,7 @@
 
 {{--                                <div class="form-group{{ $errors->has('product_id') ? ' has-danger' : '' }}">--}}
 {{--                                    <label class="form-control-label" for="input-total">{{__('translation.Total_Amount')}}</label>--}}
-{{--                                    <input type="text" name="total_amount" id="input-total_2" class="form-control form-control-alternative{{ $errors->has('product_id') ? ' is-invalid' : '' }}" value="0 ₸" disabled>--}}
+{{--                                    <input type="text" name="total_amount" id="input-total_2" class="form-control form-control-alternative{{ $errors->has('product_id') ? ' is-invalid' : '' }}" value="0 ৳" disabled>--}}
 {{--                                    @include('alerts.feedback', ['field' => 'product_id'])--}}
 {{--                                </div>--}}
 
@@ -147,8 +147,8 @@
         input_qty.addEventListener('input', updateTotal);
         input_price.addEventListener('input', updateTotal);
         function updateTotal () {
-            input_total.value = (parseInt(input_qty.value) * parseFloat(input_price.value))+" ₸";
-            // input_total_2.value = (parseInt(input_qty_2.value) * parseFloat(input_price_2.value))+" ₸";
+            input_total.value = (parseInt(input_qty.value) * parseFloat(input_price.value))+" ৳";
+            // input_total_2.value = (parseInt(input_qty_2.value) * parseFloat(input_price_2.value))+" ৳";
         }
         //-------------------------------------------------------------------------------------------//
 

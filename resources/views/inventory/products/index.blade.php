@@ -71,7 +71,7 @@
                 </div>
                 <div class="card-footer py-4">
                     <nav class="d-flex justify-content-end">
-                        {{ $products->links() }}
+                        <!-- {{ $products->links() }} -->
                     </nav>
                 </div>
             </div>

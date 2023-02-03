@@ -13,17 +13,11 @@ class products_categories_table_seeder extends Seeder
     public function run()
     {
         DB::table('product_categories')->insert([
-            ['name' => 'Двигатель', 'created_at'=>Carbon::now(), 'updated_at'=>Carbon::now()],
-            ['name' => 'КПП', 'created_at'=>Carbon::now(), 'updated_at'=>Carbon::now()],
-            ['name' => 'Электрика', 'created_at'=>Carbon::now(), 'updated_at'=>Carbon::now()],
-            ['name' => 'Гидронасос и гидрозамки', 'created_at'=>Carbon::now(), 'updated_at'=>Carbon::now()],
-            ['name' => 'Тормозная система', 'created_at'=>Carbon::now(), 'updated_at'=>Carbon::now()],
-            ['name' => 'Шасси', 'created_at'=>Carbon::now(), 'updated_at'=>Carbon::now()],
-            ['name' => 'Запчасти кабины', 'created_at'=>Carbon::now(), 'updated_at'=>Carbon::now()],
-            ['name' => 'Стрела', 'created_at'=>Carbon::now(), 'updated_at'=>Carbon::now()],
-            ['name' => 'Ремкомплект', 'created_at'=>Carbon::now(), 'updated_at'=>Carbon::now()],
-            ['name' => 'Фильтр', 'created_at'=>Carbon::now(), 'updated_at'=>Carbon::now()],
-            ['name' => 'Разное', 'created_at'=>Carbon::now(), 'updated_at'=>Carbon::now()],
+            ['name' => 'Audio and Video Collaboration', 'created_at'=> Carbon::now(), 'updated_at'=> Carbon::now()],
+            ['name' => 'Accessories', 'created_at' => Carbon::now(), 'updated_at' => Carbon::now()],
+            ['name' => 'Data Center', 'created_at' => Carbon::now(), 'updated_at' => Carbon::now()],
+            ['name' => 'Wireless', 'created_at' => Carbon::now(), 'updated_at' => Carbon::now()],
+            ['name' => 'Switch', 'created_at' => Carbon::now(), 'updated_at' => Carbon::now()],
         ]);
     }
 }

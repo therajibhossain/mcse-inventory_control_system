@@ -52,7 +52,7 @@ Route::group(['middleware' => 'auth'], function () {
                 return view('settings.index')->withDetails($kenzhekhan)->withQuery($q);
         }
         return redirect()->route('theme.index')
-            ->with('error', 'Товары не найдены! Поиск только по коду продукта.');
+            ->with('error', 'Products not found! Search by product code only.');
     });
 
     // Transaction Routes Goes here
@@ -98,7 +98,3 @@ Route::group(['middleware' => 'auth'], function () {
 Route::get('/export', 'ProductController@export')->name('export')->middleware('auth');
 Route::get('/export2', 'KenzhekhanController@export')->name('export2')->middleware('auth');
 Route::get('/export3', 'SettingsController@export')->name('export3')->middleware('auth');
-
-
-
-

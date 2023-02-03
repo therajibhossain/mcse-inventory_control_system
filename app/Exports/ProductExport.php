@@ -68,7 +68,7 @@ class ProductExport implements WithHeadings, WithMapping, WithProperties, FromCo
             $product->name,
             $product->description,
             $product->country,
-            $product->price.' '.'₸',
+            $product->price.' '.'৳',
             $product->stock,
             $product->availability = $available,
             $product->weight.' '.'КГ',

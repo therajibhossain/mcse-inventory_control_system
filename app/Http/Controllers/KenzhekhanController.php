@@ -18,8 +18,11 @@ class KenzhekhanController extends Controller
     public function index()
     {
         $kenzhekhan = Kenzhekhan::paginate(25);
+        $data = [
+            'kenzhekhan' => $kenzhekhan
+        ];
 
-        return view('inventory.kenzhekhan.index', compact('kenzhekhan',$kenzhekhan));
+        return view('inventory.kenzhekhan.index', $data);
     }
     public function create()
     {

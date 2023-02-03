@@ -1,5 +1,5 @@
 # Quick Introduction
-This is an inventory system and point of sale application it is build in laravel 8 and php 7.3
+This is an inventory system and point of sale application it is build in laravel 8 and php 8
 
 # Quick Installation
 ```bash
@@ -31,12 +31,12 @@ User: can (add, read, edit)<br>
 
 
 # Author
-[Nawras Bukhari](https://instagram.com/nawrasbukhari) <br>
+[Rajib Hossain](https://www.linkedin.com/in/therajibhossain) <br>
 
 # License
 MIT License
 
-Copyright (c) 2022 Nawras Bukhari
+Copyright (c) 2022 Rajib Hossain
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

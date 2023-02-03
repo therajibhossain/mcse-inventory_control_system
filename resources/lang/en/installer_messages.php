@@ -7,7 +7,7 @@ return [
      * Shared translations.
      *
      */
-    'title' => 'Laravel Inventory Manager Installer',
+    'title' => 'Inventory Control System Installer',
     'next' => 'Next Step',
     'back' => 'Previous',
     'finish' => 'Install',
@@ -21,8 +21,8 @@ return [
      *
      */
     'welcome' => [
-        'templateTitle' => 'Laravel Inventory Installer',
-        'title'   => 'Laravel Inventory Installer',
+        'templateTitle' => 'System Installer',
+        'title'   => 'System Installer',
         'message' => 'Easy Installation and Setup Wizard.',
         'next'    => 'Check Requirements',
     ],
