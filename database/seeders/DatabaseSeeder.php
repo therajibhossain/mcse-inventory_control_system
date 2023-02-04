@@ -10,6 +10,7 @@ class DatabaseSeeder extends Seeder
         $this->call(products_categories_table_seeder::class);
         $this->call(products_table_seeder::class);
         $this->call(clients_table_seeder::class);
+        $this->call(providers_table_seeder::class);
         $this->call(payment_mothods_table_seeder::class);
         $this->call(\Database\Seeders\countries_table_seeder::class);
     }

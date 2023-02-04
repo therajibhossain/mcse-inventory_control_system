@@ -22,7 +22,7 @@
                                         </button>
                                     </form>
                                 @else
-                                    <button type="button" class="btn btn-sm btn-primary" onclick="confirm('ВНИМАНИЕ: Сделки этой продажи похоже не совпадают со стоимостью продукции, хотите доработать? Ваши записи не могут быть изменены с этого момента?') ? window.location.replace('{{ route('sales.finalize', $sale) }}') : ''">
+                                    <button type="button" class="btn btn-sm btn-primary" onclick="confirm('ATTENTION: The deals of this sale do not seem to match the cost of the products, do you want to finalize? Your records cannot be changed from now on?') ? window.location.replace('{{ route('sales.finalize', $sale) }}') : ''">
                                         {{__('translation.Finalize_Sale')}}
                                     </button>
                                 @endif

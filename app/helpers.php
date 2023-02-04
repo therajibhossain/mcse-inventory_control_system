@@ -19,12 +19,12 @@ function format_money($money)
 function format_weight($weight)
 {
     if(!$weight){
-        return"0.00 КГ";
+        return"0.00 UOM";
     }
     $format_weight = number_format($weight);
     if(strpos($weight, '-') !== false) {
         $formatted = explode('-', $weight);
-        return "$formatted[1] КГ";
+        return "$formatted[1] UOM";
     }
-    return "$weight КГ";
+    return "$weight UOM";
 }
