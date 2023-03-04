@@ -22,7 +22,7 @@
                     <div class="alert alert-success alert-block">
                         <button type="button" class="close" data-dismiss="alert">×</button>
                             <strong>
-                                <p>this is the search result for the query:  <b class="text-danger"> {{ $query }}</b></p>
+                                <p>This is the search result for the query:  <b class="text-danger"> {{ $query }}</b></p>
                             </strong>
                         <a href="{{ route('export3') }}" class="btn btn-sm btn-primary">{{__('translation.Download')}} <i class="tim-icons icon-cloud-download-93"></i></a>
 
